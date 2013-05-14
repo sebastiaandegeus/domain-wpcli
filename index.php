@@ -12,5 +12,5 @@ License: GPL
 if ( defined('WP_CLI') && WP_CLI ) {
   // Include and register the class as the domain command
   include('DomainCommand.php');
-  WP_CLI::addCommand( 'domain', 'DomainCommand' );
+  WP_CLI::add_command( 'domain', 'DomainCommand' );
 }
